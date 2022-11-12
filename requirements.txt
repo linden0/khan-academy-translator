@@ -1,0 +1,19 @@
+ffmpeg==1.4
+moviepy==1.0.3
+deep_translator==1.8.3
+youtube_transcript_api==0.4.4
+gtts==2.2.4
+pydub==0.25.1
+pytube==12.1.0
+pafy==0.5.5
+youtube_dl==2020.12.2
+bert_score==0.3.11
+sentence_transformers==2.2.0
+transformers==4.20.0
+deepl==1.9.0
+
+
+# Packages for scraping videos from Khan Academy
+#bs4==0.0.1
+#html5lib==1.1
+#scrapingant-client=0.3.9
