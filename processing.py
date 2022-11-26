@@ -7,7 +7,6 @@ import os
 import json, csv
 from accuracy import bert_score_accuracy,sbert_accuracy
 from translator import Translator
-from db_operations import *
 
 class DataFileSystem:
     def __init__(self, dir, vid):

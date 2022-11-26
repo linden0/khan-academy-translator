@@ -8,7 +8,7 @@ pytube==12.1.0
 pafy==0.5.5
 youtube_dl==2020.12.2
 bert_score==0.3.11
-sentence_transformers==2.2.0
+sentence_transformers==2.2.2
 transformers==4.20.0
 deepl==1.9.0
 

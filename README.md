@@ -4,13 +4,13 @@ This project translates Khan Academy videos, evaluates translations, and contain
 
 ## Installation
 
-Recommended Python version: Python 3.8.10.  
+Recommended Python version: Python 3.8.10/3.10  
 After cloning, install required packages in your virtual environment using [pip](https://pypi.org/project/pip/).
 
 ```bash
 pip install -r requirements.txt
 ```
-Note: Pytorch needs to be installed separately, see guide [here](https://pytorch.org/).
+
 ## Usage
 7 arguments are taken: single_video, url, language, data_path, download_path, translator, gen_output_video.  
 * single_video
@@ -35,7 +35,7 @@ Note: Pytorch needs to be installed separately, see guide [here](https://pytorch
 ## Examples
 ```bash
 # translate youtube.com/watch?v=NQSN00zL5gg to chinese using the deepl model
-python3 main.py --single_video true --url 'youtube.com/watch?v=NQSN00zL5gg' --language zh-cn --data_path /home/user/data --download_path /home/user/downloaded_videos --tranlsator deepl --gen_output_video true
+python3 main.py --single_video true --url 'youtube.com/watch?v=NQSN00zL5gg' --language zh-cn --data_path /home/user/data --download_path /home/user/downloaded_videos --translator deepl --gen_output_video true
 
 #translate multiple videos in /home/usr/Desktop/links.txt to spanish with google translate, storing data files in /home/user/Desktop/data
 python3 main.py --single_video false --url /home/usr/Desktop/links.txt --language es --data_path /home/user/Desktop/data --download_path /home/user/downloaded_videos --translator google --gen_output_video True

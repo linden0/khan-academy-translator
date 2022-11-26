@@ -27,7 +27,7 @@ parser.add_argument('--translator', type=str, required=True)
 
 args = parser.parse_args()
 
-print(f'single_video: {args.single_video}\nurl: {args.url}\nlanguage: {args.language}\ndata_path: {args.data_path}\ngen_output: {args.gen_output_video}\ndownload_path: {args.download_path}\n translator: {args.translator}')
+print(f'single_video: {args.single_video}\nurl: {args.url}\nlanguage: {args.language}\ndata_path: {args.data_path}\ngen_output: {args.gen_output_video}\ndownload_path: {args.download_path}\ntranslator: {args.translator}')
 
 #validate arguments
 suppported_languages = {'chinese':'zh-cn', 'spanish':'es'}
